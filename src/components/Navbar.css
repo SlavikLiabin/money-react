@@ -16,4 +16,41 @@
   max-width: 1240px;
   margin: auto;
   height: 100%;
+  padding: 0 1rem;
+}
+
+.header .navbar img {
+  width: 250px;
+  height: auto;
+}
+
+.header .nav-menu {
+  display: flex;
+}
+
+.header .nav-items {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.header .nav-items a:hover {
+  padding-bottom: 12px;
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 940px) {
+  .header {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .header .navbar {
+    max-width: 100%;
+  }
+
+  
 }
