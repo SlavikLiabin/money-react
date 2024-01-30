@@ -21,7 +21,7 @@ const Navbar = () => {
             <FaBars size={30} style={{ color: "#ffffff" }} />
           )}
         </div>
-        <ul className="nav-menu">
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-items">
             <a href="/">Home</a>
           </li>
