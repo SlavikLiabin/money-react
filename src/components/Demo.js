@@ -3,7 +3,7 @@ import "./Demo.css";
 
 const Demo = () => {
   return (
-    <div className="video">
+    <div className="demo">
       <div className="container">
         <div className="col-1">
           <p>More Than 100 Financial Planners</p>
